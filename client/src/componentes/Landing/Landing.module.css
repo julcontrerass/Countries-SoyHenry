@@ -1,0 +1,136 @@
+.imagen{
+    background-image: url('./landing_landing.png');
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: stretch;
+}
+.logo{
+    width: auto;
+    height: 8rem;
+    padding: 1.5rem;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 50rem;
+}
+.contenedorLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+    
+}
+.countryLogo{
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding: 5rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+.home{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+.button{
+    margin: 1rem;
+    /* border: 1px solid;
+    border-color: white; */
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1rem;
+    font-size: larger;
+    background-color: white;
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+
+}
+.github{
+    width: auto;
+    height: 3rem;  
+    padding: 1.5rem;
+}
+.linkedin{
+    width: auto;
+    height: 4rem;  
+    padding: 1.5rem;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 3rem;
+}
+.country{
+    font-family: sans-serif	;
+    font-weight: normal;
+    font-size: 5rem; 
+}
+@media screen and (max-width: 460px){
+    .country{
+        font-size: 3rem;
+        padding: 5px;
+        margin: 0;
+        height: 80px;
+        }
+    .contenedorLogo{
+        flex-direction: column;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .countryLogo{
+        height: auto;
+        padding: 0%;
+        align-items: center;
+        width: 100%;
+    }   
+    .imagen{
+        position: absolute;
+        background-position: center center;
+        background-attachment: fixed;
+    
+    }
+    .logo{
+        width: auto;
+        height: 6rem;
+        padding: 0;
+    }
+    .button{
+        margin:none;
+        width: 10rem;
+    }
+    .footer{
+        padding-top: 0;
+        padding: 0%;
+        margin-block-end: 20px;
+        display: flex;
+        justify-content: space-evenly;
+     }
+    .github{
+        padding: 2px;
+        height: 1.5rem;  
+    }
+
+    .linkedin{
+        padding: 2px;
+        height: 2rem;  
+    }
+}

@@ -1,0 +1,112 @@
+.card{
+    width: 15rem ;
+    height: 10rem;
+    border-radius: 1rem;    
+}
+
+.borde{
+    width: 15rem;
+    height: 18rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    display: inline-grid;
+    align-content: space-around;
+    background-color:rgba(0, 0, 0, 0.332);
+    box-shadow: 0px 7px 8px 3px rgba(64, 64, 64, 0.415);
+}
+
+.imagen{
+    background: center;
+    width: 8rem;
+    height: 5rem;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    padding: none;
+}
+
+.pais{
+    height: 4rem;
+    width: 12rem;
+    text-align: center;
+}
+
+.detalle{
+    height: 10px;
+    width: auto;
+}
+
+.button{
+    pointer-events: all;
+    border-radius: 1rem;
+    background: none;
+    border: none;
+    font-size: 10px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 2px  1px 2px 1px rgba(0, 0, 0, 0.332);
+}
+
+.movil_borde{
+    width: 340px;
+    height: 10rem;
+    margin: 0.5rem;
+    display: inline-grid;
+    align-content: space-evenly;
+    box-shadow: -3px 0px 7px 2px rgba(0, 0, 0, 0.27);
+    
+}
+
+.movil_conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem;
+}
+.movil_detail_conteiner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.movil_detail_name{
+    text-align: center;
+    
+}
+.movil_detail_name h4{
+    margin: 0;
+}
+.movil_detail_conteiner p{
+    font-size: 14px;
+
+}
+.movil_conteiner_img{
+    overflow: hidden;
+    height: 100px;
+    width: 140px;
+}
+.movil_img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.movil_button{
+    color: white;
+    width: 32px;
+    border: transparent;
+    font-size: 20PX;
+    padding: 5px;
+    background: #1a1a1a;;
+    border-radius: 2rem;
+
+}
+.movil_conteiner_button{
+    border: none;
+}

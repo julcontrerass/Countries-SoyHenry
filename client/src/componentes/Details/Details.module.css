@@ -1,0 +1,97 @@
+.imagen{
+    width: auto;
+    height: 15rem;
+    padding: 1rem;
+}
+
+.header{
+  color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.733);
+    height: 8rem;
+    width: auto;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalles{
+    height: 15rem;
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(76, 0, 130, 0);
+}
+
+.activity{
+    color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 1rem;
+    height: 15rem;
+    /* background-color: rgba(76, 0, 130, 0.099); */
+    /* width: 10rem; */
+}
+
+.boxActivity{
+    width: 15rem;
+    height: 12rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(76, 0, 130, 0.099);
+    box-shadow: 0px 1px 4px 0px rgb(55, 55, 55);
+}
+
+.imagenLoading{
+    width: 8rem;
+    height: 8rem;
+
+}
+
+.loading{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    animation: animar 5s cubic-bezier(0, 0, 1, 1.03) infinite;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes animar {
+    0% {
+      transform: rotate(0deg);
+
+    }
+
+    100% {
+      transform: rotate(360deg);
+
+    }
+}
+
+.volver{
+    margin: 1rem;
+    border: none;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    font-size: large;
+    background-color: rgba(97, 97, 97, 0.985);
+    color:rgb(255, 255, 255);
+    font-weight: none;
+}
