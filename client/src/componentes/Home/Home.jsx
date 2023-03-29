@@ -14,6 +14,7 @@ import style from "./Home.module.css";
 import Paginacion from "../Paginacion/Paginacion";
 import loading from "./logoapp1-01.png";
 import useWindowDimensions from "../Hook/useWindowsDimensions";
+import Footer from "../Footer/Footer";
 
 function Home() {
   const { countries, allActivity } = useSelector((state) => state);
@@ -158,6 +159,7 @@ function Home() {
             })
         )}
       </div>
+      <Footer/>
     </div>
   );
 }

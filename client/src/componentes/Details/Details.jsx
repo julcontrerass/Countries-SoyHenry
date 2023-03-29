@@ -5,6 +5,7 @@ import { countryById } from "../../Redux/actions";
 import styles from "./Details.module.css";
 import loading from "./logoapp1-01.png";
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 function Details() {
   const { detail } = useSelector((state) => state);
@@ -56,6 +57,7 @@ function Details() {
           <img src={loading} className={styles.imagenLoading} />
         </div>
       )}
+      <Footer/>
     </div>
   );
 }

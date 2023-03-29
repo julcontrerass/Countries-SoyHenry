@@ -7,6 +7,7 @@ import useWindowDimensions from "../Hook/useWindowsDimensions";
 // import Navbar from '../NavBar/Navbar'
 import { Link } from "react-router-dom";
 import flecha from "./flecha_atras.png";
+import Footer from "../Footer/Footer";
 
 function CreateActivity() {
   const { width } = useWindowDimensions();
@@ -300,7 +301,9 @@ function CreateActivity() {
           </form>
         </div>
       </section>
+    <Footer/>
     </>
+    
   );
 }
 

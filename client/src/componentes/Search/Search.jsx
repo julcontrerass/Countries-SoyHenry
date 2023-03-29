@@ -32,7 +32,7 @@ function Search({ setInput, setPag }) {
           name="search"
           value={name}
           onChange={(e) => handleChange(e)}
-          placeholder="For example: Argentina"
+          placeholder="Search country"
         />
         <button
           className={style.button}
