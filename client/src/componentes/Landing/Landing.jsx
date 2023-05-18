@@ -9,7 +9,7 @@ function Landing() {
         <div className={style.countryLogo}>
           <div className={style.contenedorLogo}>
             <div>
-              <p className={style.country}>COUNTRIES</p>
+              <p className={style.country}>KNOW THE COUNTRIES</p>
             </div>
             <div>
               <img src={logo} alt="logo" className={style.logo} />

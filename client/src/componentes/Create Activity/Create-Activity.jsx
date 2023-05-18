@@ -8,6 +8,7 @@ import useWindowDimensions from "../Hook/useWindowsDimensions";
 import { Link } from "react-router-dom";
 import flecha from "./flecha_atras.png";
 import Footer from "../Footer/Footer";
+import logo from "./logoHome.png";
 
 function CreateActivity() {
   const { width } = useWindowDimensions();
@@ -115,7 +116,7 @@ function CreateActivity() {
       {/* <Navbar/> */}
       <header className={styles.header}>
         <Link to="/countries">
-          {width > movil ? (
+          {/* {width > movil ? (
             <button className={styles.volver}>HOME</button>
           ) : (
             <button className={styles.volver}>
@@ -125,10 +126,11 @@ function CreateActivity() {
                 alt="atras"
               />
             </button>
-          )}
+          )} */}
+          <img className={styles.logo} src={logo} alt="logo" />
         </Link>
         <div>
-          <p>Create Activity</p>
+          <h2>CREATE ACTIVITY</h2>
         </div>
       </header>
       <section className={styles.contenedorFormulario}>
