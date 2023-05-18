@@ -8,19 +8,16 @@ function Footer() {
   return (
     <div className="footer">
       <div>
-        <p>BY JULIAN CONTRERAS</p>
-      </div>
-      <div>
-        <Link to="https://github.com/julcontrerass">
-          <a href="https://github.com/julcontrerass">
-            <img src={github} className="footer-icon-github" alt="" />
+        <a href="https://github.com/julcontrerass">
+          <img src={github} className="footer-icon-github" alt="" />
+          <a href="https://www.linkedin.com/in/juliancontreraslucero/">
+            <img src={linkedin} className="footer-icon-linkedin" alt />
           </a>
-        </Link>
+        </a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/juliancontreraslucero/">
-          <img src={linkedin} className="footer-icon-linkedin" alt />
-        </a>
+        copyright &copy;2023 Pi countries Henry. by{" "}
+        <span>Julian contreras</span>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import styles from "./Details.module.css";
 import loading from "./logoapp1-01.png";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import logo from "./logoHome.png";
 
 function Details() {
   const { detail } = useSelector((state) => state);
@@ -19,9 +20,9 @@ function Details() {
     <div>
       <header className={styles.header}>
         <Link to="/countries">
-          <button className={styles.volver}>HOME</button>
+        <img className={styles.logo} src={logo} alt="logo" />
         </Link>
-        <div>DESCRIPTION OF COUNTRIES</div>
+        <h2>DESCRIPTION OF THE COUNTRIE</h2>
       </header>
       {detail.name ? (
         <>

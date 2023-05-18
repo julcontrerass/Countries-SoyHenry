@@ -18,27 +18,24 @@
 }
 
 .nuevaActividad{
-    cursor: pointer;
     border: none;
     background: none;
     height: 1.5rem;
     width: revert;
     color: #ffffff;
     font-size: 15px;
-    margin: 0.3rem;
+    margin: 30px;
     text-align: justify;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    align-content: flex-start;
-    padding-inline-end: 4rem;
-    word-spacing: 0.5rem;
-    border-bottom: 1px solid transparent;
+    align-content: center;
+    border-radius: 10px;
+    justify-content: center;
     transition: border .2s ease;
 }
 .textCreate{
     text-decoration: none;
-    
 }
 
 @media screen and (max-width: 460px){

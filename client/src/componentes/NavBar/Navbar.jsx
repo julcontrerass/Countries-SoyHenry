@@ -21,7 +21,7 @@ function Navbar({ setInput, setPag }) {
         </div>
         <div>
           <Link to="/activity" className={style.textCreate}>
-            <button className={style.nuevaActividad}>NEW ACTIVIY</button>
+            <button className={style.nuevaActividad}>CREATE A NEW ACTIVITY</button>
           </Link>
         </div>
       </nav>

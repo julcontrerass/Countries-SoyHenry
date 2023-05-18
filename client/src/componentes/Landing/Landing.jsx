@@ -15,11 +15,10 @@ function Landing() {
               <img src={logo} alt="logo" className={style.logo} />
             </div>
           </div>
-          
         </div>
         <div className={style.home}>
           <Link to="/countries">
-            <button className={style.button}>VIAJAR</button>
+            <button className={style.button}>TRAVEL</button>
           </Link>
         </div>
       </div>

@@ -16,6 +16,11 @@
     align-content: flex-start;
     align-items: center;
 }
+.logo{
+    height: 5rem;
+    padding: 2rem;
+    margin: 3rem;
+}
 
 .contenedor{
     display: flex;

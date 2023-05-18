@@ -1,10 +1,9 @@
 .footer{
-    align-content: center;
-    width: 100%;
     display: flex;
-    justify-content:center;
-    align-items: center;
-    height: 5rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 50px 10px;
     
 }
 .footer-icon-github{
