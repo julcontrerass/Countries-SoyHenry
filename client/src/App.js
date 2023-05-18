@@ -3,8 +3,6 @@ import Details from "./componentes/Details/Details";
 import Landing from './componentes/Landing/Landing';
 import CreateActivity from './componentes/Create Activity/Create-Activity';
 import Home from "./componentes/Home/Home";
-import axios from "axios";
-axios.defaults.baseURL = 'http://localhost:3001/';
 
 function App() {
   return (
